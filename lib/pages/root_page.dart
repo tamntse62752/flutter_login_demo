@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_login_demo/pages/login_signup_page.dart';
 import 'package:flutter_login_demo/services/authentication.dart';
 import 'package:flutter_login_demo/pages/home_page.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 enum AuthStatus {
   NOT_DETERMINED,
@@ -35,7 +36,7 @@ class _RootPageState extends State<RootPage> {
       });
     });
   }
-
+  
   void loginCallback() {
     widget.auth.getCurrentUser().then((user) {
       setState(() {
@@ -89,4 +90,8 @@ class _RootPageState extends State<RootPage> {
         return buildWaitingScreen();
     }
   }
+
+
+
+  
 }

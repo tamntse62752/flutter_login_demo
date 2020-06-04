@@ -10,10 +10,18 @@
       "client_info": {
         "mobilesdk_app_id": "1:291963665161:android:d61a1562ced7bcc42db1d8",
         "android_client_info": {
-          "package_name": "com.example.flutterlogindemo"
+          "package_name": "com.fptuniversity"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "291963665161-ebhv3vj7mkq3udd380639gi5uv3emd5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fptuniversity",
+            "certificate_hash": "7e24c01fe9a4bf43a0430ce7eee9d135281d21de"
+          }
+        },
         {
           "client_id": "291963665161-07pekac3qqb9rjl1d2a0f3a8dqal79ai.apps.googleusercontent.com",
           "client_type": 3
